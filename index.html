@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <p>上衣：
+        <input id="JacketInput" type="text">
+        <button type="button" onclick="InsertJacket()">Insert</button>
+        <button type="button" onclick="ClearJacket()">Clear</button>
+    </p>
+    <p id="JacketList">(上衣列表)</p>
+    <p>外套：
+        <input id="CoatInput" type="text">
+        <button type="button" onclick="InsertCoat()">Insert</button>
+        <button type="button" onclick="ClearCoat()">Clear</button>
+    </p>
+    <p id="CoatList">(外套列表)</p>
+
+    <p><button type="button" onclick="GenerateMatch()">決定穿著！</button></p>
+    <p id="Result"></p>
+
+</body>
+<script src="js/func.js"></script>
+</html>
